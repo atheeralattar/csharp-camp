@@ -1,0 +1,282 @@
+1. Write a C# Sharp program to compute the sum of the two numerical values. If the two values are the same, return triple their sum.
+input1:20
+input2:30
+result:50
+----------------------------------
+2. Write a C# Sharp program to get the absolute difference between n and 51. If n is broader than 51 return triple the absolute difference.
+input1:30
+result:21
+----------------------------------
+3. Write a C# Sharp program to check two given integers, and return true if one of them is 30 or if their sum is 30.
+input1:20
+input2:40
+result:False
+----------------------------------
+4. Write a C# Sharp program to check a given integer and return true if it is within 10 of 100 or 200.
+input1:20
+result:False
+----------------------------------
+5. Write a C# Sharp program to create a string where 'if' is added to the front of a given string. If the string already begins with 'if', return it unchanged.
+input:WINDHAVEN
+result:ifWINDHAVEN
+----------------------------------
+6. Write a C# Sharp program to remove the character at a given position in the string. The given position will be in the range 0..(string length -1) inclusive.
+input string:CYPRESS
+input position:3
+result:CYPESS
+----------------------------------
+7. Write a C# Sharp program to exchange the first and last characters in a given string and return the new string.
+ELAINE
+----------------------------------
+8.Write a C# Sharp program to create a string which is 4 copies of the 2 front characters of a given string. If the given string length is less than 2 return the original string.
+input:ELIA
+result:ELELELEL
+----------------------------------
+9. Write a C# Sharp program to create a string with the last char added at the front and back of a given string of length 1 or more.
+input:REEMAN
+result:NREEMANN
+----------------------------------
+10. Write a C# Sharp program to check if a given positive number is a multiple of 3 or 7.
+input:20
+result:False
+----------------------------------
+11. Write a C# Sharp program to create a string taking the first 3 characters of a given string. Return the string with the 3 characters added at both the front and back. If the given string length is less than 3, use whatever characters are there.
+input:TOYOTA
+resultTOYTOYOTATOY
+----------------------------------
+12. Write a C# Sharp program to check if a given string starts with 'C#' or not.
+input:ATHEER
+result:False
+----------------------------------
+13. Write a C# Sharp program that checks whether one temperature is less than 0 and another is greater than 100.
+input:20,30
+result:False
+----------------------------------
+14. Write a C# Sharp program to check two given integers whether either of them is in the range 100..200 inclusive
+input:20,30
+result:False
+----------------------------------
+15. Write a C# Sharp program to check whether three given integer values are in the range 20..50 inclusive. Return true if 1 or more of them are in the said range otherwise false.
+input:10,30, 5
+result:True
+----------------------------------
+16. Write a C# Sharp program to check whether two given integer values are in the range 20..50 inclusive. Return true if 1 or other is in the range, otherwise false.
+input:10,20
+result:True
+----------------------------------
+17. Write a C# Sharp program to check if a string 'yt' appears at index 1 in a given string. If it appears return a string without 'yt' otherwise return the original string.
+input:ATHEER
+result:ATHEER
+----------------------------------
+18. Write a C# Sharp program to check the largest number among three given integers.
+input:10,20,30
+result:30
+----------------------------------
+19. Write a C# Sharp program to check which number is closest to 100 among two given integers. Return 0 if the two numbers are equal.
+3.input:30,30
+result:0
+----------------------------------
+20. Write a C# Sharp program to check whether two given integers are in the range 40..50 inclusive, or they are both in the range 50..60 inclusive.
+input:10,20
+result:False
+----------------------------------
+21. Write a C# Sharp program to find the largest value from two positive integer values in the range 20..30 inclusive. Return 0 if neither is in that range.
+input:10,30
+result:0
+----------------------------------
+22. Write a C# Sharp program to check if a given string contains between 2 and 4 'z' characters.
+input:ATHEER
+result:False
+----------------------------------
+23. Write a C# Sharp program to check if two given non-negative integers have the same last digit.
+input:10,20
+result:True
+----------------------------------
+24. Write a C# Sharp program to convert the last 3 characters of a given string to uppercase. If the length of the string is less than 3, then uppercase all the characters.
+input:ATHEER
+result:ATHEER
+----------------------------------
+25. Write a C# Sharp program to create a string which is n (non-negative integer) copies of a given string.
+input:30,ATHEER
+result:ATHEERATHEERATHEERATHEERATHEERATHEERATHEERATHEERATHEERATHEERATHEERATHEERATHEERATHEERATHEERATHEERATHEERATHEERATHEERATHEERATHEERATHEERATHEERATHEERATHEERATHEERATHEERATHEERATHEERATHEER
+----------------------------------
+1. Write a C# Sharp program to accept two integers and check whether they are equal or not.
+input:20,30
+result:20 and 30 are not equal
+----------------------------------
+2. Write a C# Sharp program to check whether a given number is even or odd.
+input:30
+result:Even
+----------------------------------
+input:30
+result:30 is a positive number
+----------------------------------
+4. Write a C# Sharp program to find out whether a given year is a leap year or not.
+input:2002
+result:2002 is not leap year
+----------------------------------
+5. Write a C# Sharp program to read the age of a candidate and determine whether it is eligible for casting his/her own vote.
+input:20
+result:Congratulation! You are eligible for casting your vote.
+----------------------------------
+6. Write a C# Sharp program to read the value of an integer m and display the value of n is 1 when m is larger than 0, 0 when m is 0 and -1 when m is less than 0.
+input:10
+result:1
+----------------------------------
+7. Write a C# Sharp program to accept a person's height in centimeters and categorize them according to their height.
+input:10
+result:The person is Dwarf
+----------------------------------
+8. Write a C# Sharp program to find the largest of three numbers.
+input num1
+20
+input num2
+30
+input num3
+20
+The 2nd Number is the greatest among three
+----------------------------------
+9. Write a C# Sharp program to accept a coordinate point in an XY coordinate system and determine in which quadrant the coordinate point lies.
+The coordinate point (20, 30) lies in the First quadrant
+----------------------------------
+10. Write a C# Sharp program to determine the eligibility for admission to a professional course based on the following criteria:
+input math score:
+60
+input phys score:
+60
+input chem score:
+60
+The candidate is eligible for admission.
+----------------------------------
+11. Write a C# Sharp program to calculate the root of a quadratic equation.
+Root are imaginary; No Solution.----------------------------------
+12. Write a C# Sharp program to read roll no, name and marks of three subjects and calculate the total, percentage and division.
+Input the Roll Number of the student:
+1001
+Input the name of the student:
+James
+Input the marks of Physics, Chemistry and Computer Application
+19 60 50
+Roll No: 1001
+Name of Student: James
+Marks in Physics: 19
+Marks in Chemistry: 60
+Marks in Computer Application: 50
+Total Marks: 129
+Percentage: 43
+Division: Not First
+----------------------------------
+13. Write a C# Sharp program to read temperature in centigrade and display a suitable message according to the temperature state
+input:10
+result:Very Cold weather
+----------------------------------
+14. Write a C# Sharp program to check whether a triangle is Equilateral, Isosceles or Scalene.
+Input the sides measures spearated by space:
+40 40 30
+Result: Isosceles
+----------------------------------
+15.Write a C# Sharp program to check whether a triangle can be formed by the given angles value.
+Enter angles values seprataed by spaces:
+120 30 40
+result:The triangle is not valid.
+----------------------------------
+ 16.Write a C# Sharp program to check whether an alphabet letter is a vowel or a consonant.
+input:A
+result:The alphabet is a vowel
+----------------------------------
+17. Write a C# Sharp program to calculate profit and loss on a transaction.
+Input:10, 20
+result:you can book your profit at10
+----------------------------------
+18. Write a C# Sharp program to calculate and print the electricity bill of a customer. From the keyboard, the customer's name, ID, and unit consumed should be taken and displayed along with the total amount due.The charge are as follow :
+Enter customer ID:
+1001
+Enter customer Name:
+James
+Enter units consumed:
+300
+Customer IDNO: 1001
+Customer Name: James
+Units consumed:300
+Amount charged @Rs. 1.5 per unit: 450
+Surcharge Amount: 67.5
+Net Amount Paid by the Customer: 517.5
+----------------------------------
+19. Write a program in C# Sharp to accept a grade and declare the equivalent description:
+input: E
+ result:You have chosen: Excellent
+----------------------------------
+20. Write a C# Sharp program to read any day number as an integer and display the name of the day as a word.
+input:5
+result: Thursday
+----------------------------------
+21. Write a program in C# Sharp to read any digit, display in the word.
+input:9
+result: nine
+----------------------------------
+22. Write C# Sharp program to read any Month Number in integer and display Month name.
+input:10
+result: November
+----------------------------------
+23. Write a program in C# Sharp to read any Month Number in integer and display the number of days for this month.
+input:10
+result: Month have 31 days
+----------------------------------
+24. Write a C# Sharp program that calculates the area of geometrical shapes using a menu-driven approach.
+input:1, 33
+result: 3421.19439975928
+----------------------------------
+1. Write a program in C# Sharp to input a string and print it.
+Input string:
+Atheer
+input:Atheer
+result: The string you entered is :Atheer
+----------------------------------
+2. Write a C# Sharp program to find the length of a string without using a library function.
+input:I WENT TO THE PARK
+result: 18
+----------------------------------
+3. Write a C# Sharp program to separate individual characters from a string.
+input:A HIPPO IS A DANGEROUS ANIMAL
+result: A   H I P P O   I S   A   D A N G E R O U S   A N I M A L
+----------------------------------
+4. Write a program in C# Sharp to print individual characters of the string in reverse order.
+input: A SHARK A DANGEOURS ANIMAL
+result: L A M I N A   S R U O E G N A D   A   K R A H S   A
+----------------------------------
+5. Write a program in C# Sharp to count the total number of words in a string.
+input:MY NAME IS ATHEER
+result: 4
+----------------------------------
+6. Write a program in C# Sharp to compare two strings without using a string library functions.
+input:I DRIVE A CAR,  MY CAR IS RED
+result: The two strings are not equal and The two strings length is not equal
+----------------------------------
+6. Write a program in C# Sharp to compare two strings without using a string library functions.
+input:I DRIVE A CAR, I DRIVE A CAR
+result: The two strings are equal and The two strings length is equal
+----------------------------------
+7. Write a program in C# Sharp to count the number of alphabets, digits and special characters in a string.
+input:I LIVE IN HOUSTON!!,
+result: Number of letters: 14
+Number of digits: 0
+Number of special chars: 2
+----------------------------------
+8. Write a program in C# Sharp to copy one string to another string.
+First string is: WEATHER IS GOOD
+ Second string is: WEATHER IS GOOD
+15 characters copied
+----------------------------------
+9. Write a C# Sharp program to count the number of vowels or consonants in a string.
+input: TEXAS IS A US STATE
+The total number of vowel in the string is :0
+The total number of consonant in the string is:15
+----------------------------------
+10. Write a C# Sharp program to find the maximum number of characters in a string.
+The Highest frequency of character I
+appears number of times : 2
+----------------------------------
+11. Write a C# Sharp program to sort a string array in ascending order.
+input:BAGHDAD
+result:AABDDGH
+Press any key to continue . . .
